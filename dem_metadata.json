@@ -1,0 +1,45 @@
+{
+  "name": "Roads at Risk - Commercial Township DEM",
+  "source": "USGS 3DEP Bare Earth DEM Dynamic ImageServer",
+  "sourceUrl": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer",
+  "sourceDescription": "USGS 3D Elevation Program (3DEP) Bare Earth DEM Dynamic service, retrieved for the Roads at Risk municipal rollout.",
+  "downloadedAt": "2026-08-10",
+  "processing": "Exported from USGS 3DEP at municipal extent, masked to the Commercial Township boundary, adaptively resampled to 8.7 ft pixels to keep the browser-delivered raster within operational size limits, and compressed as a Cloud Optimized GeoTIFF.",
+  "horizontalCrs": "EPSG:3857",
+  "verticalUnits": "meters",
+  "displayElevationUnits": "feet",
+  "pixelSizeMeters": 2.6564369257330895,
+  "pixelSizeFeet": 8.715344244496272,
+  "adaptiveResolution": true,
+  "width": 5221,
+  "height": 3065,
+  "nodata": -999999,
+  "minMeters": -1.338,
+  "maxMeters": 14.808,
+  "meanMeters": 1.031,
+  "stdDevMeters": 1.417,
+  "minFeet": -4.389763779510001,
+  "maxFeet": 48.58267716516,
+  "webMercatorBounds": [
+    -8361897.134326,
+    4751929.0909496285,
+    -8348027.877136747,
+    4760071.070127
+  ],
+  "leafletBounds": [
+    [
+      39.2109262,
+      -75.1162
+    ],
+    [
+      39.2675672,
+      -74.9916128
+    ]
+  ],
+  "files": {
+    "demCog": "commercial_township_dem_5ft_cog.tif",
+    "hillshadeCog": "commercial_township_hillshade_cog.tif",
+    "hillshadePng": "commercial_township_hillshade.png",
+    "boundaryGeojson": "commercial_township_boundary.geojson"
+  }
+}
