@@ -1,0 +1,16 @@
+{
+  "schema": "nj-road-risk-gauge-pipeline-v2",
+  "releaseVersion": "20260920-nj-universal-v2",
+  "floodmapperRepo": "Commercial-Township-floodmapper",
+  "sourcePrecedence": [
+    "primary-usgs-continuous",
+    "bias-corrected-noaa-historical-fill",
+    "official-usgs-storm-tide-crest-override"
+  ],
+  "primaryUsgsGaugeId": "01412150",
+  "noaaStationId": "8545240",
+  "noaaRegion": "philadelphia",
+  "noaaBiasCorrectionFt": -0.804,
+  "crestUsgsStationId": "01411900",
+  "calibrationPairKey": "01412150:philadelphia"
+}
